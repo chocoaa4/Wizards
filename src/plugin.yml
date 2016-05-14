@@ -1,0 +1,10 @@
+name: Wizards
+version: 1.1
+description: A wizards plugin inspired by a server creation
+author: chocoaa
+main: me.chocoaa.wizards.Wizards
+
+commands:
+      wand:
+         description: Allows you to choose a wand
+         usage: /<command>
