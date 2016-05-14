@@ -38,7 +38,7 @@ public class Wizards extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        Bukkit.getServer().getLogger().info(ChatColor.GREEN + "Wizards is being Enabled!");
+        Bukkit.getServer().getLogger().info("Wizards is being Enabled!");
         getConfig().options().copyDefaults(true);
         saveConfig();
         Bukkit.getServer().getPluginManager().registerEvents(this, this);
@@ -49,9 +49,6 @@ public class Wizards extends JavaPlugin implements Listener {
         wandA.setIngredient('.',Material.STICK);
         Bukkit.getServer().addRecipe(wandA);
 
-        cooldownTime = new HashMap<Player, Integer>();
-        cooldownTask = new HashMap<Player, BukkitRunnable>();
-        r = new Random();
 
 
 
