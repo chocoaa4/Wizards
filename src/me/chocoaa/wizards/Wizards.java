@@ -34,9 +34,6 @@ import static org.bukkit.enchantments.Enchantment.FIRE_ASPECT;
 
 public class Wizards extends JavaPlugin implements Listener {
 
-    private Random r;
-    private HashMap<Player, Integer> cooldownTime;
-    private HashMap<Player, BukkitRunnable> cooldownTask;
 
 
     @Override
